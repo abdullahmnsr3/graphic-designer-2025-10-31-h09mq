@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Graphic Design Services - Transform Your Brand Vision Into Reality">
+    <meta name="keywords" content="graphic design, design services, branding, portfolio">
+    <meta name="author" content="Graphic Design Studio">
+    <title>Graphic Designer - Premium Design Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        .animate-slide-in-left {
+            animation: slideInLeft 0.6s ease-out;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .creative-border {
+            border-left: 4px solid #667eea;
+        }
+        
+        .hover-lift {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-palette text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold tracking-tight hidden sm:inline">Design Studio</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium">Benefits</a>
+                <a href="#services" class="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium">Services</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium">FAQ</a>
+                <a href="test.com" class="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-white hover:text-purple-400 transition-colors duration-300">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-gray-800 border-b border-gray-700 md:hidden">
+                <div class="flex flex-col space-y-4 px-4 py-6">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#services" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Services</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="test.com" class="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20 pb-20">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+            <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="animate-fade-in-up">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                    Graphic Designer
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-4 font-light">
+                    <span class="gradient-text font-semibold">Best Graphic Design Services</span>
+                </p>
+                <p class="text-lg text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
+                    Transform your brand vision into stunning visual reality. Our award-winning design team specializes in creating compelling graphics that captivate audiences and drive meaningful engagement for your business.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+                    <a href="test.com" class="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center gap-2">
+                        <span>Start Your Project</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="px-8 py-4 bg-gray-800 text-white rounded-lg font-bold text-lg hover:bg-gray-700 hover:shadow-lg transition-all duration-300 border border-gray-700">
+                        Explore Services
+                    </a>
+                </div>
+                
+                <div class="flex items-center justify-center gap-8 text-sm text-gray-400 flex-wrap">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check text-purple-400"></i>
+                        <span>Professional Design</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check text-purple-400"></i>
+                        <span>Fast Turnaround</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check text-purple-400"></i>
+                        <span>Unlimited Revisions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-800 bg-opacity-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Designing Excellence</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Comprehensive design solutions tailored to your unique brand identity and business objectives
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Designing -->
+                <div class="hover-lift bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-pencil-ruler text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Strategic Designing</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Our expert designers combine creative vision with strategic thinking to craft visually stunning designs that not only look beautiful but also communicate your brand message effectively and resonate with your target audience.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Brand Identity Design</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Digital & Print Assets</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>UI/UX Design</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2: Portfolio -->
+                <div class="hover-lift bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-image text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Impressive Portfolio</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Explore our extensive portfolio showcasing diverse design projects across industries. From startups to established enterprises, we've delivered compelling visual solutions that have transformed brands and exceeded client expectations consistently.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>500+ Completed Projects</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Industry-Winning Designs</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Diverse Client Base</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3: Services -->
+                <div class="hover-lift bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Comprehensive Services</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        From concept to completion, we offer end-to-end design services tailored to your specific needs. Our team handles everything from initial consultation and strategy through final delivery, ensuring a seamless and collaborative creative process.
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Logo & Branding</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Marketing Materials</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-star text-purple-400"></i>
+                            <span>Web Design</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 bg-gray-900 relative overflow-hidden">
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute top-1/2 right-0 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Proven Results & Benefits</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Experience tangible improvements in your business metrics and brand perception
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Benefit 1: Save Time -->
+                <div class="text-center hover-lift">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Save Time</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Eliminate the time-consuming process of managing multiple designers and agencies. Our streamlined workflow and dedicated team ensure rapid project completion without compromising on quality, allowing you to focus on core business activities.
+                    </p>
+                    <div class="mt-6 inline-block px-4 py-2 bg-purple-500 bg-opacity-20 text-purple-300 rounded-lg text-sm font-semibold">
+                        50% Faster Delivery
+                    </div>
+                </div>
+                
+                <!-- Benefit 2: Increase Sales -->
+                <div class="text-center hover-lift">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chart-line text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Increase Sales</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Professional, compelling design directly impacts your bottom line. Our conversion-optimized designs increase customer engagement, build trust, and drive purchasing decisions, resulting in measurable revenue growth for your business.
+                    </p>
+                    <div class="mt-6 inline-block px-4 py-2 bg-pink-500 bg-opacity-20 text-pink-300 rounded-lg text-sm font-semibold">
+                        35% Average Increase
+                    </div>
+                </div>
+                
+                <!-- Benefit 3: Better ROI -->
+                <div class="text-center hover-lift">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-coins text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Better ROI</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Strategic design investments deliver exceptional returns. By creating memorable brand experiences and optimizing every visual touchpoint, we help you maximize marketing efficiency and achieve superior return on investment across all campaigns.
+                    </p>
+                    <div class="mt-6 inline-block px-4 py-2 bg-purple-500 bg-opacity-20 text-purple-300 rounded-lg text-sm font-semibold">
+                        3x ROI Improvement
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Our Design Services</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Complete design solutions for every aspect of your brand
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 group cursor-pointer hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center overflow-hidden relative">
+                        <i class="fas fa-feather text-white text-6xl opacity-30 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-purple-400 transition-colors duration-300">Logo & Brand Identity</h3>
+                        <p class="text-gray-400 mb-4">Create a memorable brand identity with custom logo design, color palettes, and comprehensive brand guidelines that set you apart from competitors.</p>
+                        <a href="test.com" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 group cursor-pointer hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-pink-600 to-purple-600 flex items-center justify-center overflow-hidden relative">
+                        <i class="fas fa-images text-white text-6xl opacity-30 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-purple-400 transition-colors duration-300">Digital Marketing Design</h3>
+                        <p class="text-gray-400 mb-4">Eye-catching social media graphics, email templates, and digital ads designed to maximize engagement and drive conversions across all platforms.</p>
+                        <a href="test.com" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 group cursor-pointer hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-indigo-600 flex items-center justify-center overflow-hidden relative">
+                        <i class="fas fa-globe text-white text-6xl opacity-30 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-purple-400 transition-colors duration-300">Web & UI Design</h3>
+                        <p class="text-gray-400 mb-4">Modern, responsive website designs and user interfaces that provide exceptional user experiences and drive meaningful interactions with your audience.</p>
+                        <a href="test.com" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 group cursor-pointer hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-pink-600 to-red-600 flex items-center justify-center overflow-hidden relative">
+                        <i class="fas fa-print text-white text-6xl opacity-30 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-3 group-hover:text-purple-400 transition-colors duration-300">Print Design</h3>
+                        <p class="text-gray-400 mb-4">Professional print materials including business cards, brochures, packaging, and collateral that leave lasting impressions on your target audience.</p>
+                        <a href="test.com" class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-semibold">
+                            Learn More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-24 bg-gray-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl opacity-20 blur-2xl"></div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=600&fit=crop" alt="Design Team Collaboration" class="relative rounded-xl shadow-2xl w-full h-auto object-cover">
+                </div>
+                
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">About Our Studio</h2>
+                    
+                    <div class="space-y-6">
+                        <p class="text-gray-300 leading-relaxed text-lg">
+                            Founded in 2010, our design studio emerged from a passion for creating exceptional visual experiences that transform brands. What started as a small team of three designers has evolved into an award-winning creative powerhouse serving clients across diverse industries worldwide. Over the past decade, we've cultivated a reputation for excellence, innovation, and unwavering commitment to our clients' success. Our journey has been marked by countless successful projects, industry recognition, and most importantly, the trust and satisfaction of our growing client base who continue to partner with us for their most important design needs.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed text-lg">
+                            Our core mission is to empower businesses through transformative design that drives real results. We believe that exceptional design is not merely about aesthetics—it's about strategic thinking, deep understanding of your audience, and creative excellence working in harmony. We're committed to maintaining the highest standards of professionalism and creativity in every project, fostering a collaborative environment where your vision becomes reality. Our values of integrity, innovation, and client-centricity guide every decision we make, ensuring that we deliver not just beautiful designs, but strategic solutions that contribute meaningfully to your business growth and brand evolution.
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-gray-700">
+                        <div>
+                            <div class="text-3xl font-bold text-purple-400">500+</div>
+                            <p class="text-gray-400 text-sm mt-2">Projects Completed</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-purple-400">150+</div>
+                            <p class="text-gray-400 text-sm mt-2">Happy Clients</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-purple-400">45+</div>
+                            <p class="text-gray-400 text-sm mt-2">Team Members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Client Testimonials</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Hear from businesses that have transformed their brands with our design expertise
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "The design team completely transformed our brand identity. They understood our vision immediately and delivered a logo and brand guidelines that perfectly captured our company's essence. Our new branding has already increased customer inquiries by 40%. Highly recommended!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-white">Sarah Mitchell</p>
+                            <p class="text-sm text-gray-400">CEO, Tech Innovations Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Working with this design studio was an absolute pleasure. They created stunning social media graphics and email templates that significantly improved our engagement rates. Their professionalism and attention to detail exceeded all our expectations."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-white">Marcus Chen</p>
+                            <p class="text-sm text-gray-400">Marketing Director, Global Brands Co.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Their web design expertise helped us create a beautiful, conversion-optimized website. The user experience is exceptional, and our bounce rate has decreased significantly while average session duration increased by 60%. Best investment we've made for our business!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-white">Emma Rodriguez</p>
+                            <p class="text-sm text-gray-400">Founder, Digital Solutions Agency</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Outstanding print design work! The packaging designs they created for our product line are absolutely stunning and have received countless compliments from customers. Their creative vision combined with practical expertise made all the difference in our market launch."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-white">James Patterson</p>
+                            <p class="text-sm text-gray-400">Product Manager, Premium Goods Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-900">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-400">
+                    Find answers to common questions about our design services
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-inset" aria-expanded="false">
+                        <span class="text-lg font-semibold text-white">What is your typical project timeline?</span>
+                        <i class="faq-icon fas fa-chevron-down text-purple-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 text-gray-300 border-t border-gray-700 pt-6">
+                        <p>Our project timelines vary depending on the scope and complexity of your design needs. For logo design, we typically require 2-3 weeks from initial consultation to final delivery. Website design projects usually take 4-8 weeks, while comprehensive branding packages can span 6-12 weeks. We always provide a detailed timeline during our initial consultation and work closely with you to meet your specific deadlines. Rush services are available for urgent projects with additional fees.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-inset" aria-expanded="false">
+                        <span class="text-lg font-semibold text-white">Do you offer unlimited revisions?</span>
+                        <i class="faq-icon fas fa-chevron-down text-purple-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 text-gray-300 border-t border-gray-700 pt-6">
+                        <p>Yes! We believe in getting your design exactly right. Our standard packages include unlimited revisions during the design phase to ensure you're completely satisfied with the final product. We'll keep refining the design based on your feedback until you're 100% happy. However, major scope changes or additional design directions beyond the original brief may incur additional fees. We discuss revision policies in detail during our initial consultation to ensure complete transparency.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-inset" aria-expanded="false">
+                        <span class="text-lg font-semibold text-white">What file formats do you deliver?</span>
+                        <i class="faq-icon fas fa-chevron-down text-purple-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 text-gray-300 border-t border-gray-700 pt-6">
+                        <p>We deliver all designs in multiple formats to ensure maximum versatility. Typical deliverables include high-resolution PNG and JPG files for web use, vector files (AI and EPS) for scalability, PDF files for printing, and source files for future modifications. For web projects, we provide optimized files for various devices and screen sizes. We also include brand guidelines documentation that specifies proper file usage, color codes, and technical specifications. Custom file formats can be provided upon request at no additional cost.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-inset" aria-expanded="false">
+                        <span class="text-lg font-semibold text-white">How do you determine pricing for projects?</span>
+                        <i class="faq-icon fas fa-chevron-down text-purple-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 text-gray-300 border-t border-gray-700 pt-6">
+                        <p>Our pricing is based on several factors including project scope, complexity, timeline, and your specific requirements. We offer flexible pricing models including fixed-price packages for standard services, hourly rates for consulting work, and custom quotes for comprehensive projects. During our initial consultation, we discuss your budget, goals, and deliverables to create a transparent proposal with no hidden costs. We also offer payment plans for larger projects to make our services more accessible. We're committed to providing exceptional value and can work within various budget ranges.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <button class="faq-question w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-inset" aria-expanded="false">
+                        <span class="text-lg font-semibold text-white">Do you work with international clients?</span>
+                        <i class="faq-icon fas fa-chevron-down text-purple-400 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 text-gray-300 border-t border-gray-700 pt-6">
+                        <p>Absolutely! We work with clients from around the world and have experience collaborating across different time zones and cultures. Our team is skilled in adapting designs for various markets and understanding cultural nuances that impact design effectiveness. We communicate via email, video conferencing, and project management tools to ensure smooth collaboration regardless of location. We accept international payments through multiple methods and can accommodate different currencies. Our global perspective helps us create designs that resonate with diverse audiences worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 bg-gradient-to-br from-purple-900 to-pink-900 relative overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&h=600&fit=crop" alt="Creative Design Workspace" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-800 to-pink-900 opacity-80"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Ready to Transform Your Brand?</h2>
+            <p class="text-xl text-gray-100 mb-8 leading-relaxed max-w-2xl mx-auto">
+                Let's collaborate to create stunning designs that elevate your brand, captivate your audience, and drive real business results. Start your design journey with us today.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="test.com" class="px-8 py-4 bg-white text-purple-900 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center gap-2">
+                    <span>Get Started Now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="test.com" class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white hover:text-purple-900 transition-all duration-300">
+                    Schedule Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 border-t border-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Column 1: Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-palette text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold">Design Studio</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Creating exceptional design solutions that transform brands and drive business growth.
+                    </p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-purple-500 hover:text-white transition-all duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-purple-500 hover:text-white transition-all duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-purple-500 hover:text-white transition-all duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-purple-500 hover:text-white transition-all duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Services -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Logo Design</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Branding</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Web Design</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Digital Marketing</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Print Design</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Company -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Legal & Contact -->
+                <div>
+                    <h3 class="font-bold text-lg mb-6">Legal & Contact</h3>
+                    <ul class="space-y-3 mb-6">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                    <div>
+                        <p class="text-sm text-gray-400 mb-2">Email:</p>
+                        <a href="mailto:test@test.com" class="text-purple-400 hover:text-purple-300 transition-colors duration-300 font-semibold">test@test.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col sm:flex-row items-center justify-between">
+                    <p class="text-gray-500 text-sm">
+                        &copy; 2025 Design Studio. All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-sm mt-4 sm:mt-0">
+                        Crafted with <i class="fas fa-heart text-red-500"></i> for creative excellence
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                                otherItem.querySelector('.faq-question')?.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                        question.setAttribute('aria-expanded', !isOpen);
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
